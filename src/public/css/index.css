@@ -1,0 +1,55 @@
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex input {
+    display: none;
+}
+
+
+.flex input:checked+label {
+    color: black;
+}
+
+
+.flex label {
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background: #fff;
+    color: gray;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+}
